@@ -7,9 +7,11 @@ function Hero() {
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
-            src="./himage.png"
+            src="/himage.png"
             className="max-w-xl   mix-blend-overlay "
-            alt=""
+            alt="hero"
+            width={530} 
+            height={530} 
           />
           <div>
             <h1 className="text-7xl font-bold" style={{color:"white"}}>Crypto Scanner</h1>

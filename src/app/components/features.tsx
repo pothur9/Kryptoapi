@@ -14,7 +14,8 @@ function Features() {
         <div className="flex justify-evenly">
           <div className="card bg-base-100 image-full w-96 shadow-xl m-5">
             <figure>
-              <Image src="./fimg1.jpg" alt="" />
+              <Image src="/fimg1.jpg" alt=""   width={500} 
+  height={300} />
             </figure>
             <div className="card-body">
               <h2 className="card-title"style={{color:"white"}}>Target fraud tokens, nfts, coins and more</h2>
@@ -23,7 +24,8 @@ function Features() {
           </div>
           <div className="card bg-base-100 image-full w-96 shadow-xl m-5">
             <figure>
-              <Image src="./fimg2.jpg" alt="" />
+              <Image src="/fimg2.jpg" alt=""  width={500} 
+  height={300}  />
             </figure>
             <div className="card-body">
               <h2 className="card-title" style={{color:"white"}}>Chain token CA and whitelist if fraud</h2>
@@ -32,7 +34,8 @@ function Features() {
           </div>
           <div className="card bg-base-100 image-full w-96 shadow-xl m-5">
             <figure>
-              <Image src="./fimg4.jpg" alt="" />
+              <Image src="/fimg4.jpg" alt=""   width={500} 
+  height={300} />
             </figure>
             <div className="card-body">
               <h2 className="card-title"style={{color:"white"}}>Have different subscription and plans based - requests per seconds</h2>

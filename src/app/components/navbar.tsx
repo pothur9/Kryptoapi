@@ -36,7 +36,8 @@ function Navbar() {
           </ul>
         </div>
         <Link href="/">
-        <Image src="/logo-bg.png" alt="Kryptoapi Logo" className="h-13 w-auto" />
+        <Image src="/logo-bg.png" alt="Kryptoapi Logo" className="h-13 w-auto"  width={500} 
+  height={300}  />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
