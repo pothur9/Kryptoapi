@@ -1,13 +1,15 @@
 import React from "react";
+import Image from "next/image";
 
 function Hero() {
   return (
     <div style={{backgroundColor:"#102642"}}>
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
+          <Image
             src="./himage.png"
             className="max-w-xl   mix-blend-overlay "
+            alt=""
           />
           <div>
             <h1 className="text-7xl font-bold" style={{color:"white"}}>Crypto Scanner</h1>

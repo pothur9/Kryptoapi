@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   return (
@@ -35,7 +36,7 @@ function Navbar() {
           </ul>
         </div>
         <Link href="/">
-        <img src="/logo-bg.png" alt="Kryptoapi Logo" className="h-13 w-auto" />
+        <Image src="/logo-bg.png" alt="Kryptoapi Logo" className="h-13 w-auto" />
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

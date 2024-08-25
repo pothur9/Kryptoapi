@@ -7,7 +7,7 @@ const ContactForm = () => {
     <Navbar/>
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-r from-black to-blue-900 px-4">
       <div className="w-full max-w-2xl bg-base-100 p-8 rounded-lg shadow-md">
-        <h2 className="text-3xl font-bold text-white mb-6">Let's Get In Touch.</h2>
+        <h2 className="text-3xl font-bold text-white mb-6">Lets Get In Touch.</h2>
         <p className="text-gray-300 mb-8">
           Or just reach out manually to <a href="mailto:hello@slothui.com" className="text-blue-400 hover:underline">hello@slothui.com</a>.
         </p>
